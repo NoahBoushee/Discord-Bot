@@ -1,0 +1,575 @@
+(node:62008) UnhandledPromiseRejectionWarning: DiscordAPIError: Unknown Message
+    at RequestHandler.execute (C:\Users\noahb\OneDrive\Desktop\BOT\node_modules\discord.js\src\rest\RequestHandler.js:170:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(node:62008) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:62008) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:62008) UnhandledPromiseRejectionWarning: DiscordAPIError: Unknown Message
+    at RequestHandler.execute (C:\Users\noahb\OneDrive\Desktop\BOT\node_modules\discord.js\src\rest\RequestHandler.js:170:25)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(node:62008) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:62008) UnhandledPromiseRejectionWarning: DiscordAPIError: Unknown Message
+    at RequestHandler.execute (C:\Users\noahb\OneDrive\Desktop\BOT\node_modules\discord.js\src\rest\RequestHandler.js:170:25)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(node:62008) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (C:\Users\noahb\OneDrive\Desktop\BOT\index.js:51:12)
+    at Client.emit (events.js:315:20)
+    at MessageCreateAction.handle (C:\Users\noahb\OneDrive\Desktop\BOT\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\noahb\OneDrive\Desktop\BOT\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\noahb\OneDrive\Desktop\BOT\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (C:\Users\noahb\OneDrive\Desktop\BOT\node_modules\discord.js\src\client\websocket\WebSocketShard.js:436:22)
+    at WebSocketShard.onMessage (C:\Users\noahb\OneDrive\Desktop\BOT\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
+    at WebSocket.onMessage (C:\Users\noahb\OneDrive\Desktop\BOT\node_modules\ws\lib\event-target.js:125:16)
+    at WebSocket.emit (events.js:315:20)
+    at Receiver.receiverOnMessage (C:\Users\noahb\OneDrive\Desktop\BOT\node_modules\ws\lib\websocket.js:800:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (C:\Users\noahb\OneDrive\Desktop\BOT\index.js:51:12)
+    at Client.emit (events.js:315:20)
+    at MessageCreateAction.handle (C:\Users\noahb\OneDrive\Desktop\BOT\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\noahb\OneDrive\Desktop\BOT\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\noahb\OneDrive\Desktop\BOT\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (C:\Users\noahb\OneDrive\Desktop\BOT\node_modules\discord.js\src\client\websocket\WebSocketShard.js:436:22)
+    at WebSocketShard.onMessage (C:\Users\noahb\OneDrive\Desktop\BOT\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
+    at WebSocket.onMessage (C:\Users\noahb\OneDrive\Desktop\BOT\node_modules\ws\lib\event-target.js:125:16)
+    at WebSocket.emit (events.js:315:20)
+    at Receiver.receiverOnMessage (C:\Users\noahb\OneDrive\Desktop\BOT\node_modules\ws\lib\websocket.js:800:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (C:\Users\noahb\OneDrive\Desktop\BOT\index.js:54:12)
+    at Client.emit (events.js:315:20)
+    at MessageCreateAction.handle (C:\Users\noahb\OneDrive\Desktop\BOT\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\noahb\OneDrive\Desktop\BOT\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\noahb\OneDrive\Desktop\BOT\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (C:\Users\noahb\OneDrive\Desktop\BOT\node_modules\discord.js\src\client\websocket\WebSocketShard.js:436:22)
+    at WebSocketShard.onMessage (C:\Users\noahb\OneDrive\Desktop\BOT\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
+    at WebSocket.onMessage (C:\Users\noahb\OneDrive\Desktop\BOT\node_modules\ws\lib\event-target.js:125:16)
+    at WebSocket.emit (events.js:315:20)
+    at Receiver.receiverOnMessage (C:\Users\noahb\OneDrive\Desktop\BOT\node_modules\ws\lib\websocket.js:800:20)
+C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:315:20)
+    at process.exit (internal/process/per_thread.js:167:15)
+    at monitor (C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:99:17)
+    at ChildProcess.<anonymous> (C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:170:5)
+    at ChildProcess.emit (events.js:315:20)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:275:12)
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\noahb\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
