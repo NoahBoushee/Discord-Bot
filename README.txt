@@ -13,4 +13,6 @@ Please ensure that the config.json is filled out fully otherwise the bot will no
 	defaultRole - the defaultRole that is assigned to all users
 	noPornRole - the role to hide the NSFW channel if one exists
 
+
+UNZIP INCLUDED ZIP FILE
 MORE TO COME
